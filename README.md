@@ -25,7 +25,7 @@ This is a full-stack web application for browsing and filtering insurance polici
 ## Setup and Installation
 
 ### Backend Setup
-1. Navigate to the backend directory:
+1. the backend directory:
    ```bash
    cd backend
    ```
@@ -33,14 +33,22 @@ This is a full-stack web application for browsing and filtering insurance polici
    ```bash
    npm install
    ```
-3. Start the backend server:
+3. Start the backend dev server:
+   ```bash
+   npm run dev
+   ```
+4. build the backend server:
+   ```bash
+   npm run build
+   ```
+5. start after build the backend server:
    ```bash
    npm start
    ```
-4. The server will run on [http://localhost:5000](http://localhost:5000)
+6. The server will run on [http://localhost:5000](http://localhost:5000)
 
 ### Frontend Setup
-1. Navigate to the frontend directory:
+1. the frontend directory:
    ```bash
    cd frontend
    ```
